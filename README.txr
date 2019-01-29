@@ -1,0 +1,24 @@
+################################ SCRIPTS CREATED TO PROCCESS AND ORGANIZE ALL THE INFORMATION RELATED WITH PED PROJECT #################################
+
+
+################################
+##- PAIRWISE ALIGMENTS SCRIPT -#
+################################
+This program takes all the fasta sequences related to PED (contained in the "fasatasequences" folder) and creates pairwise aligments plots generated with Biopython. 
+Only those sequences being different are ploted (less than 90% ID). All the required libraries and softwares to be installed are detailed in the requirement.txt.
+This scripts generates the plot files are moved to each entry folder to create the PED reports.
+VERY IMPORTANT INFO: 
+The files will be moved to each entry "fastasecuences" folder, wich will be created also neccesary. PLEASE CHECK the paths needed are ok!!!!!!
+
+
+#############################
+#. RG qualification report -#
+#############################
+
+
+
+######################################################
+#- Cocting all the file paths related to each entry -#
+######################################################
+IMPRTANT INFORMATION: the user has to change the main path in order to obtein all the paths related to each entry
+This script must be used before running the "Rg_qualification_report" and the "PED_full_report_HTML"
