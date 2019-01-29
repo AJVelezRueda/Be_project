@@ -1,5 +1,5 @@
-################################ SCRIPTS CREATED TO PROCCESS AND ORGANIZE ALL THE INFORMATION RELATED WITH PED PROJECT #################################
-
+################### SCRIPTS CREATED TO PROCCESS AND ORGANIZE ALL THE INFORMATION RELATED WITH PED PROJECT ###########################
+contact: Ana Julia Velez Rueda
 
 ################################
 ##- PAIRWISE ALIGMENTS SCRIPT -#
@@ -14,7 +14,9 @@ The files will be moved to each entry "fastasecuences" folder, wich will be crea
 #############################
 #. RG qualification report -#
 #############################
-
+This program takes the Crysol output parsed: it works with the files contained in the Rg folder: "-Rg-Dmax-mean.txt" and "rg.lits_ens" files are used. 
+This scripts also use as an input the all_fasta_sequences file. The theorical Rg value describing the native folded behaivor was calculated using the Wilkins formula (Wilkins et al. 1999)
+The theorical Rg value describing the intrinsically disordered behavior was calculated using the Wilkins formula (Wilkins et al. 1999). The lenght of the ensembles was calculated using the sum of all the chain lengths, calculated from their sequences. R0 and v values were 2.54 and 0.522 respectively.
 
 
 ######################################################
