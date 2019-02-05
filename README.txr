@@ -24,3 +24,14 @@ R0 and v values were 2.54 and 0.522 respectively.
 ######################################################
 IMPRTANT INFORMATION: the user has to change the main path in order to obtein all the paths related to each entry
 This script must be used before running the "Rg_qualification_report" and the "PED_full_report_HTML"
+
+
+#############################
+##-  RG plots with reports -#
+##-  Genral data - README  -#
+#############################
+
+This program takes the RG theorical values calculated with the 'RG_quantification_report' script 
+and the list of Rg calculated with crysol for each PED id and returns the plots with the limits lines
+
+
