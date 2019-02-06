@@ -34,9 +34,15 @@ This program takes the RG theorical values calculated with the 'RG_quantificatio
 and the list of Rg calculated with crysol for each PED id and returns the plots with the limits lines
 
 ################################
+###-   Convert_tiff_to_jpg  -###
+################################
+This script is an adappted code from: https://github.com/kckaiwei/tifftojpeg/blob/master/main.py
+It takes a path to a directory in which tif files are and generates jpg.
+
+################################
 #- PED_full_report_HTML_build -#
 ################################
 This program takes the outputs from the previous scripts, an html template (html_report_template.html) and the 
 Important INFO: the folder must follow the structure: "~/Be_project/Data/PED-DB3/PED1AAA"
 IMPORTANT: you must have a folder with called data in whith a folder with folder of each entry inside.
-This script uses an html_tamplate to build the reports, make sure the path to this tamplate is ok.
+This script uses an html_tamplate to build the reports, make sure the path to this tamplate is ok
