@@ -36,7 +36,7 @@ and the list of Rg calculated with crysol for each PED id and returns the plots 
 ################################
 ###-   Convert_tiff_to_jpg  -###
 ################################
-This script is an adappted code from: https://github.com/kckaiwei/tifftojpeg/blob/master/main.py
+This script is an adapted code from: https://github.com/kckaiwei/tifftojpeg/blob/master/main.py
 It takes a path to a directory in which tif files are and generates jpg.
 
 ################################
