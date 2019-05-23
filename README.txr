@@ -4,7 +4,7 @@
 ##- PAIRWISE ALIGMENTS SCRIPT -#
 ################################
 The PairAlig_Ana-Be.ipynb takes all the fasta sequences related to PED (contained in the "fasatasequences" folder) and creates pairwise alignments plots generated with Biopython. 
-Only those sequences being different are ploted (less than 90% ID). All the required libraries and softwares to be installed are detailed in the requirement.txt. 
+Only those sequences being different are ploted (less than 90% ID). All the required libraries and softwares to be installed are detailed in the "requirement.txt". 
 This scripts generates the plot files are moved to each entry folder to create the PED reports. 
 VERY IMPORTANT INFO: The files will be moved to each entry "fastasecuences" folder, which will be created also it is necessary.
 PLEASE CHECK the paths needed are ok!!!!!!
@@ -13,17 +13,17 @@ PLEASE CHECK the paths needed are ok!!!!!!
 #############################
 #. RG qualification report -#
 #############################
-This program takes the Crysol output parsed: it works with the files contained in the Rg folder: "-Rg-Dmax-mean.txt" and "rg.lits_ens" files are used. 
-This scripts also use as an input the all_fasta_sequences file. The theorical Rg value describing the native folded behaivor was calculated using the Wilkins formula (Wilkins et al. 1999)
-The theorical Rg value describing the intrinsically disordered behavior was calculated using the Wilkins formula (Wilkins et al. 1999). The lenght of the ensembles was calculated using the sum of all the chain lengths, calculated from their sequences. 
-R0 and v values were 2.54 and 0.522 respectively.
+The Rg_qualification_report.ipynb takes the Crysol output parsed: it works with the files contained in the Rg folder: "-Rg-Dmax-mean.txt" and "rg.lits_ens" files are used. 
+This scripts also use as an input the all_fasta_sequences file. The theoretical Rg value describing the native folded behavior was calculated using the Wilkins formula (Wilkins et al. 1999). 
+The theoretical Rg value describing the intrinsically disordered behavior was calculated using the Wilkins formula (Wilkins et al. 1999).
+The lenght of the ensembles was calculated using the sum of all the chain lengths, calculated from their sequences.  R0 and v values were 2.54 and 0.522 respectively.
 
 ######################################################
 #- Cocting all the file paths related to each entry -#
 ######################################################
 This script must be used before running the "Rg_qualification_report" and the "PED_full_report_HTML". It takes a path given to the PEDDB3 data folder and
 generates a table with the paths related with each entry
-IMPRTANT INFORMATION: the user has to change the main path in order to obtein all the paths related to each entry.
+IMPORTANT INFORMATION: the user has to change the main path in order to obtain all the paths related to each entry.
 
 #############################
 ##-  RG plots with reports -#
@@ -41,7 +41,5 @@ It takes a path to a directory in which tif files are and generates jpg.
 ################################
 #- PED_full_report_HTML_build -#
 ################################
-This program takes the outputs from the previous scripts, an html template (html_report_template.html) and the 
-Important INFO: the folder must follow the structure: "~/Be_project/Data/PED-DB3/PED1AAA"
-IMPORTANT: you must have a folder with called data in whith a folder with folder of each entry inside.
-This script uses an html_tamplate to build the reports, make sure the path to this tamplate is ok
+The PED_full_report_HTML_build.ipynb This program takes the outputs from the previous scripts, an html template (html_report_template.html) and the Important INFO: the folder must follow the structure: "~/Be_project/Data/PED-DB3/PED1AAA". 
+IMPORTANT: you must have a folder with called data in with a folder with folder of each entry inside. This script uses an html_template to build the reports, make sure the path to this template is ok
