@@ -88,7 +88,7 @@ numpy==1.11.3
 numpydoc==0.6.0
 nwalign==0.3.1
 odo==0.5.0
-openpyxl==2.4.1
+openpyxl==2.4.2
 pandas==0.19.2
 param==1.5.0
 partd==0.3.7
